@@ -1,0 +1,107 @@
+body {
+  position: relative;
+  line-height: 1;
+  background-color: #4FF75D;
+  color: #000;
+  margin: 0%;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
+article {
+  position: static;
+  margin: 5%;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+Header::before {
+  font-size: 15em;
+  content: "\04DC";
+  text-shadow: 2px 2px #131111;
+}
+
+Header {
+  position: relative;
+  text-align: center;
+  top: 0%;
+  line-height: 1;
+  color: #F71C1C;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px #131111;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-size: 1.8em;
+  position: relative;
+  text-align: center;
+  display:inline-block;
+  width:25%;
+  line-height:180%;
+  background: linear-gradient( #555, #2C2C2C);
+  border-radius: 8%;
+  color:white;
+  text-decoration:none;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+nav a:hover {
+  font-size: 1.9em;
+  color:white;
+  position: static;
+  text-align: center;
+  display:inline-block;
+  width:25%;
+  line-height:150%;
+  background: linear-gradient( #555, #2C2C2C);
+  border-radius: 8%;
+  text-decoration:none;
+}
+
+
+section.download a::before {
+  content: "\04DC";
+  color:#F71C1C;
+  text-align: center;
+  vertical-align:middle;
+}
+
+section.download a {
+  font-size: 1.6em;
+  position: relative;
+  text-align: center;
+  vertical-align:middle;
+  display:inline-block;
+  width:35%;
+  line-height:150%;
+  background: linear-gradient( #216605, #379B10);
+  color:white;
+  text-decoration:none;
+  border-radius: 8%;
+}
+
+section.download a:hover {
+  font-size: 1.6em;
+  position: relative;
+  text-align: center;
+  display:inline-block;
+  width:40%;
+  line-height:150%;
+  background: linear-gradient( #216605, #379B10);
+  color:white;
+  text-decoration:none;
+}
+
+footer {
+  font-size: 1em;
+  color:white;
+  position: relative;
+  text-align: center;
+  background: linear-gradient( #443333, #131111);
+  text-decoration:none;
+}
